@@ -14,7 +14,7 @@ cosSq' :: Double -> Double
 cosSq' x = square $ cos x
 
 cosSq'' :: Double -> Double
-cosSq'' = (square . cos) x
+cosSq'' x = (square . cos) x
 
 cosSq''' :: Double -> Double
 cosSq''' = square . cos
